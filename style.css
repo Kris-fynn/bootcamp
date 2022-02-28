@@ -1,0 +1,307 @@
+.orange{
+    height: 100vh;
+    padding: 2.5rem;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.orange h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .5rem;
+    font-weight: 900;
+    margin: 4rem;
+    font-family: 'Fraunces', serif;
+}
+
+
+.header orange img{
+    
+}
+
+
+
+.rowHeader::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnHeader{
+    float: left;
+    width: 50%;
+}
+
+
+.columnHeader nav{
+    margin: 0 1.2rem;
+    text-decoration: none;
+    
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    
+}
+.columnHeader a{
+    padding: 30px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+
+
+
+.row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1{
+    float: left;
+    width: 50%;
+}
+
+.column1 h2{
+    font-size: 2.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+}
+
+
+
+
+.transform{
+    padding-top: 150px;
+    margin-left: 120px;
+}
+
+.transform p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.transform a{
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+}
+
+
+.row2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2{
+    float: left;
+    width: 50%;
+}
+
+.column2 a{
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+}
+
+
+.column2 h2 {
+    font-size: 2.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+}
+
+
+
+.standinfo{
+    padding-top: 150px;
+    margin-left: 120px;
+}
+
+.standinfo h2{
+
+}
+
+.standinfo p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.standinfo a{
+    
+}
+
+
+
+.row3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column3{
+    float: left;
+    width: 50%;
+}
+
+
+.testiminals{
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 162px;
+    padding-top: 163px;
+}
+
+
+
+.testiminals img{
+    border-radius: 80px;
+}
+
+
+#client{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 3rem;
+    letter-spacing: .3rem;
+    font-family: 'Fraunces', serif;
+    padding-bottom: 80px;
+}
+
+.testiminals h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 1rem;
+    letter-spacing: .3rem;
+    font-family: 'Fraunces', serif;
+}
+
+.testiminals p{
+    color: hsl(198, 62%, 26%);
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.testiminals h4{
+    font-weight: 900;
+    font-size: 0.8rem;
+    margin-bottom: .5rem;
+    font-family: 'Fraunces', serif;
+    color:hsl(210, 4%, 67%); 
+}
+
+
+
+.testiminals:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.clients{
+    float: left;
+    width: 33.33%;
+}
+
+
+
+
+.graphicspan {
+    float: left;
+    width: 25%;
+}
+
+.graphic:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+footer{
+ /***   background-color: hsl(168, 34%, 41%);**/
+    background-color: rgb(144, 212, 197);
+    width: 100%;
+    height:300px;
+}
+
+.footerBar{
+    padding: 50px;
+
+}
+
+#footerNav{
+    padding: 50px;
+    color: hsl(167, 40%, 24%);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-size: .9rem; 
+    text-align: center; 
+}
+
+
+#footerNav a{
+    padding: 10px;
+}
+
+#footerLinks{
+    padding:40px;
+    color: #19536b;
+    font-size: 1.1rem;
+    color: hsl(228, 45%, 44%); 
+    font-family: 'Barlow', sans-serif;
+
+}
+
+#footerLinks a{
+    padding: 20px;
+}
+
+
+#footerLogo{
+    padding: 5px;
+    width: 9rem;
+    
+}
